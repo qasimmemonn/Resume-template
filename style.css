@@ -1,0 +1,103 @@
+
+body{
+    background-color: blueviolet;
+}
+
+
+.main{
+
+    display: flex;
+    width: 850px;
+    height: auto;
+    justify-items: center;
+   flex-wrap: wrap;
+   margin:80px 260px; 
+
+}
+@media screen and (max-width:1067px) {
+    
+.main{
+
+    display: flex;
+    width: 850px;
+    height: auto;
+    justify-items: center;
+   margin: 60px -20px;
+
+}
+}
+
+
+/*Leftside CSS*/
+
+.left{
+    width: 40%;
+    background-color: black;
+}
+.left h2{
+    color: white;
+    text-align: center;
+}
+.line{
+    width: 200px;
+    border-color: rgb(221, 221, 78);
+    margin-top: -12px;
+    margin-bottom: 20px;
+}
+
+.body-content{
+    color: white;
+    margin: 0px 5px;
+  
+}
+.contact{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.contact-icon{
+    background-color: rgb(221, 221, 78);
+    color: black;
+    font-size: 23px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px 0px;
+    margin: 10px 60px;
+}
+.BM{
+    margin-bottom: 50px;
+}
+
+/*Rightside CSS*/
+.right{
+    width: 60%;
+    background-color: white;
+}
+.NJF{
+    background-color: yellow;
+    margin-top: 60px;
+    padding: 10px 20px;
+}
+.NJF h1{
+    margin-bottom: -15px;
+ 
+}
+.NJF h1,h4{
+    margin-left: 20px;
+    letter-spacing: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right h2{
+  margin-left: 40px;
+ 
+}
+.line2{
+    width: 430px;
+    border-color: rgb(22, 22, 20);
+    margin-top: -12px;
+    margin-bottom: 20px;
+}
+.body-content2{
+    margin: 0px 30px;
+    margin-bottom: 20px;
+}
